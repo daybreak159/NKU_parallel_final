@@ -1,0 +1,154 @@
+Training...
+Training phase 1: reading and parsing passwords...
+Training phase 2: Ordering segment values and PTs...
+Train time: 36.702876181 seconds
+Initialization complete. Starting guessing...
+Guesses generated (approx): 170685
+Guesses generated (approx): 315647
+Guesses generated (approx): 459774
+Guesses generated (approx): 559924
+Guesses generated (approx): 660105
+Guesses generated (approx): 730968
+Guesses generated (approx): 862659
+Guesses generated (approx): 927462
+Guesses generated (approx): 1017695
+Processing batch of 1017695 guesses...
+Serial Hash Time (Batch): 0.270746708 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.327884649 s
+Batch Speedup (Serial / Parallel): 0.83x
+----------------------------------------
+Guesses generated (approx): 1120885
+Guesses generated (approx): 1233862
+Guesses generated (approx): 1322489
+Guesses generated (approx): 1425170
+Guesses generated (approx): 1544868
+Guesses generated (approx): 1645038
+Guesses generated (approx): 1754096
+Guesses generated (approx): 1863276
+Guesses generated (approx): 1986926
+Guesses generated (approx): 2099050
+Processing batch of 1081355 guesses...
+Serial Hash Time (Batch): 0.294295241 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.206392675 s
+Batch Speedup (Serial / Parallel): 1.43x
+----------------------------------------
+Guesses generated (approx): 2218748
+Guesses generated (approx): 2318998
+Guesses generated (approx): 2489683
+Guesses generated (approx): 2590833
+Guesses generated (approx): 2601707
+Guesses generated (approx): 2712631
+Guesses generated (approx): 2813981
+Guesses generated (approx): 2958975
+Guesses generated (approx): 3004714
+Guesses generated (approx): 3104864
+Processing batch of 1005814 guesses...
+Serial Hash Time (Batch): 0.274166025 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.189321015 s
+Batch Speedup (Serial / Parallel): 1.45x
+----------------------------------------
+Guesses generated (approx): 3205014
+Guesses generated (approx): 3314970
+Guesses generated (approx): 3415152
+Guesses generated (approx): 3525076
+Guesses generated (approx): 3625326
+Guesses generated (approx): 3799642
+Guesses generated (approx): 3899792
+Guesses generated (approx): 3909666
+Guesses generated (approx): 4080351
+Guesses generated (approx): 4109725
+Processing batch of 1004861 guesses...
+Serial Hash Time (Batch): 0.264950258 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.207717777 s
+Batch Speedup (Serial / Parallel): 1.28x
+----------------------------------------
+Guesses generated (approx): 4243981
+Guesses generated (approx): 4311174
+Guesses generated (approx): 4466915
+Guesses generated (approx): 4570085
+Guesses generated (approx): 4662279
+Guesses generated (approx): 4809541
+Guesses generated (approx): 4830832
+Guesses generated (approx): 4930982
+Guesses generated (approx): 5044427
+Guesses generated (approx): 5187259
+Processing batch of 1077534 guesses...
+Serial Hash Time (Batch): 0.281359478 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.214900060 s
+Batch Speedup (Serial / Parallel): 1.31x
+----------------------------------------
+Guesses generated (approx): 5372573
+Guesses generated (approx): 5393864
+Guesses generated (approx): 5549137
+Guesses generated (approx): 5591108
+Guesses generated (approx): 5721399
+Guesses generated (approx): 5865526
+Guesses generated (approx): 6014973
+Guesses generated (approx): 6160200
+Guesses generated (approx): 6305359
+Processing batch of 1118100 guesses...
+Serial Hash Time (Batch): 0.292815548 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.232915832 s
+Batch Speedup (Serial / Parallel): 1.26x
+----------------------------------------
+Guesses generated (approx): 6436845
+Guesses generated (approx): 6522929
+Guesses generated (approx): 6648180
+Guesses generated (approx): 6792307
+Guesses generated (approx): 6823372
+Guesses generated (approx): 6934296
+Guesses generated (approx): 7066511
+Guesses generated (approx): 7177435
+Guesses generated (approx): 7206789
+Guesses generated (approx): 7370464
+Processing batch of 1065105 guesses...
+Serial Hash Time (Batch): 0.276586749 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.221071860 s
+Batch Speedup (Serial / Parallel): 1.25x
+----------------------------------------
+Guesses generated (approx): 7481420
+Guesses generated (approx): 7620794
+Guesses generated (approx): 7720944
+Guesses generated (approx): 7822094
+Guesses generated (approx): 7924372
+Guesses generated (approx): 8068499
+Guesses generated (approx): 8078273
+Guesses generated (approx): 8180513
+Guesses generated (approx): 8282785
+Guesses generated (approx): 8382935
+Processing batch of 1012471 guesses...
+Serial Hash Time (Batch): 0.265607180 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.208945099 s
+Batch Speedup (Serial / Parallel): 1.27x
+----------------------------------------
+Guesses generated (approx): 8483085
+Guesses generated (approx): 8627212
+Guesses generated (approx): 8698075
+Guesses generated (approx): 8807999
+Guesses generated (approx): 8946318
+Guesses generated (approx): 8994393
+Guesses generated (approx): 9139387
+Guesses generated (approx): 9239569
+Guesses generated (approx): 9383796
+Processing batch of 1000861 guesses...
+Serial Hash Time (Batch): 0.262167433 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.211146223 s
+Batch Speedup (Serial / Parallel): 1.24x
+----------------------------------------
+Guesses generated (approx): 9528822
+Guesses generated (approx): 9699507
+Guesses generated (approx): 9853408
+Guesses generated (approx): 9934077
+Guesses generated (approx): 10106852
+Target number of guesses reached.
+
+================ Summary ================
+Total Guesses Generated: 10106852
+Train Time: 36.702876181 seconds
+Guess Generation Time: 0.834429927 seconds
+Total Serial Hash Time: 2.482694620 seconds
+Total Parallel Hash Time (Preproc+SIMD): 2.020295190 seconds
+Total Loop Time (Guess + Hash): 6.308686585 seconds
+Overall Hash Speedup (Serial / Parallel): 1.23x
+========================================
+Program finished successfully.

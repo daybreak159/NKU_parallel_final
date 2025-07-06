@@ -1,0 +1,4 @@
+g++ -g main.cpp train.cpp guessing.cpp md5.cpp -o main -O2  -march=native -g
+perf record ./main
+perf report
+perf report --stdio > perf_report.txt

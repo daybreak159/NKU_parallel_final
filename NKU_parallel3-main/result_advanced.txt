@@ -1,0 +1,67 @@
+Training...
+Training phase 1: reading and parsing passwords...
+Training phase 2: Ordering segment values and PTs...
+Train time: 27.823200 seconds
+Initialization complete. Starting guessing...
+Processing batch of 983712 guesses...
+Serial Hash Time (Batch): 0.228321 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.184192 s
+Batch Speedup (Serial / Parallel): 1.239576x
+----------------------------------------
+Processing batch of 1031783 guesses...
+Serial Hash Time (Batch): 0.242208 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.193116 s
+Batch Speedup (Serial / Parallel): 1.254211x
+----------------------------------------
+Processing batch of 1036157 guesses...
+Serial Hash Time (Batch): 0.253340 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.190329 s
+Batch Speedup (Serial / Parallel): 1.331065x
+----------------------------------------
+Processing batch of 1070396 guesses...
+Serial Hash Time (Batch): 0.249640 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.208182 s
+Batch Speedup (Serial / Parallel): 1.199142x
+----------------------------------------
+Processing batch of 1078061 guesses...
+Serial Hash Time (Batch): 0.250000 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.207166 s
+Batch Speedup (Serial / Parallel): 1.206762x
+----------------------------------------
+Processing batch of 1038556 guesses...
+Serial Hash Time (Batch): 0.241474 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.200178 s
+Batch Speedup (Serial / Parallel): 1.206299x
+----------------------------------------
+Processing batch of 1000818 guesses...
+Serial Hash Time (Batch): 0.225286 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.161723 s
+Batch Speedup (Serial / Parallel): 1.393039x
+----------------------------------------
+Processing batch of 1000190 guesses...
+Serial Hash Time (Batch): 0.225469 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.162215 s
+Batch Speedup (Serial / Parallel): 1.389938x
+----------------------------------------
+Processing batch of 1002161 guesses...
+Serial Hash Time (Batch): 0.258065 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.161545 s
+Batch Speedup (Serial / Parallel): 1.597482x
+----------------------------------------
+Processing batch of 1094348 guesses...
+Serial Hash Time (Batch): 0.246706 s
+Parallel Hash Time (Batch, Preproc+SIMD): 0.176181 s
+Batch Speedup (Serial / Parallel): 1.400297x
+----------------------------------------
+Target number of guesses reached.
+
+================ Summary ================
+Total Guesses Generated: 10035780
+Train Time: 27.823200 seconds
+Guess Generation Time: 2.466807 seconds
+Total Serial Hash Time: 2.192188 seconds
+Total Parallel Hash Time (Preproc+SIMD): 1.660635 seconds
+Total Loop Time (Guess + Hash): 6.446097 seconds
+Overall Hash Speedup (Serial / Parallel): 1.320091x
+========================================
+Program finished successfully.

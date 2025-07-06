@@ -1,0 +1,527 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 105K of event 'cycles:u'
+# Event count (approx.): 113764139258
+#
+# Overhead  Command  Shared Object          Symbol                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+# ........  .......  .....................  .........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+#
+    46.81%  main     main                   [.] model::FindPT
+    18.16%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node
+     3.86%  main     main                   [.] MD5Hash
+     3.39%  main     main                   [.] MD5Hash_SIMD_Batch
+     2.91%  main     main                   [.] std::__detail::_Map_base<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::at
+     2.85%  main     main                   [.] std::__detail::_Map_base<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[]
+     1.75%  main     main                   [.] segment::segment
+     1.58%  main     main                   [.] std::__introsort_loop<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, long, __gnu_cxx::__ops::_Iter_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}> >
+     1.41%  main     libc.so.6              [.] malloc
+     1.15%  main     main                   [.] model::parse
+     1.10%  main     libc.so.6              [.] 0x000000000008fc88
+     0.97%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash
+     0.80%  main     main                   [.] segment::order
+     0.80%  main     libc.so.6              [.] cfree
+     0.60%  main     main                   [.] std::__detail::_Map_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[]
+     0.58%  main     libc.so.6              [.] 0x000000000008e9ac
+     0.44%  main     libc.so.6              [.] 0x000000000008e9b8
+     0.42%  main     main                   [.] PriorityQueue::~PriorityQueue
+     0.39%  main     libstdc++.so.6.0.28    [.] std::_Hash_bytes
+     0.39%  main     libc.so.6              [.] 0x0000000000090c10
+     0.37%  main     main                   [.] operator delete@plt
+     0.33%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash
+     0.31%  main     libc.so.6              [.] 0x000000000008fa50
+     0.31%  main     libstdc++.so.6.0.28    [.] std::istream::sentry::sentry
+     0.29%  main     main                   [.] std::vector<PT, std::allocator<PT> >::_M_emplace_aux<PT&>
+     0.29%  main     main                   [.] segment::~segment
+     0.28%  main     libstdc++.so.6.0.28    [.] std::operator>><char, std::char_traits<char>, std::allocator<char> >
+     0.27%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>
+     0.26%  main     libc.so.6              [.] memcmp
+     0.25%  main     main                   [.] PriorityQueue::PopNext
+     0.22%  main     main                   [.] memcmp@plt
+     0.21%  main     main                   [.] StringProcess
+     0.20%  main     main                   [.] PriorityQueue::Generate
+     0.20%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>
+     0.19%  main     main                   [.] main
+     0.19%  main     libc.so.6              [.] 0x000000000008eb20
+     0.18%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear
+     0.17%  main     main                   [.] PT::PT
+     0.17%  main     main                   [.] StringProcess_Parallel
+     0.16%  main     libstdc++.so.6.0.28    [.] __cxxabiv1::__vmi_class_type_info::__do_dyncast
+     0.15%  main     libc.so.6              [.] 0x000000000009c080
+     0.14%  main     libstdc++.so.6.0.28    [.] __dynamic_cast
+     0.12%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_M_realloc_insert<segment&>
+     0.12%  main     libc.so.6              [.] 0x000000000009c098
+     0.12%  main     libc.so.6              [.] isalpha
+     0.11%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>
+     0.10%  main     libc.so.6              [.] 0x000000000008eba0
+     0.09%  main     main                   [.] memset@plt
+     0.09%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::clear
+     0.09%  main     libc.so.6              [.] 0x000000000008f990
+     0.09%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node
+     0.09%  main     main                   [.] std::__detail::_Map_base<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[]
+     0.08%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>
+     0.08%  main     libc.so.6              [.] 0x0000000000090c2c
+     0.08%  main     libc.so.6              [.] 0x000000000009dc80
+     0.08%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append
+     0.06%  main     libc.so.6              [.] 0x000000000009dce8
+     0.06%  main     main                   [.] segment::insert
+     0.06%  main     libc.so.6              [.] 0x000000000009c040
+     0.06%  main     libc.so.6              [.] 0x000000000009dce4
+     0.05%  main     libc.so.6              [.] 0x000000000008e9a4
+     0.05%  main     libstdc++.so.6.0.28    [.] operator new
+     0.05%  main     libc.so.6              [.] 0x000000000008fa10
+     0.05%  main     libc.so.6              [.] 0x000000000008fc84
+     0.05%  main     main                   [.] memcpy@plt
+     0.05%  main     libc.so.6              [.] 0x000000000008fce8
+     0.05%  main     libc.so.6              [.] 0x000000000009211c
+     0.05%  main     main                   [.] PriorityQueue::CalProb
+     0.05%  main     libc.so.6              [.] 0x000000000008eac8
+     0.04%  main     libc.so.6              [.] posix_memalign
+     0.04%  main     libc.so.6              [.] 0x00000000000911b8
+     0.04%  main     libc.so.6              [.] 0x000000000009c084
+     0.04%  main     libc.so.6              [.] 0x000000000008fc80
+     0.04%  main     libc.so.6              [.] 0x000000000008e9a0
+     0.04%  main     libc.so.6              [.] 0x000000000009c078
+     0.03%  main     libc.so.6              [.] 0x000000000009dce0
+     0.03%  main     main                   [.] model::train
+     0.03%  main     libc.so.6              [.] strcmp
+     0.03%  main     libc.so.6              [.] 0x000000000008e9b4
+     0.03%  main     libc.so.6              [.] 0x000000000009c09c
+     0.03%  main     libc.so.6              [.] 0x000000000008e9a8
+     0.03%  main     libc.so.6              [.] 0x000000000008f970
+     0.03%  main     libstdc++.so.6.0.28    [.] std::use_facet<std::ctype<char> >
+     0.03%  main     libc.so.6              [.] 0x000000000009dc84
+     0.03%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable
+     0.03%  main     libc.so.6              [.] 0x000000000009dc94
+     0.03%  main     libc.so.6              [.] 0x00000000000911dc
+     0.03%  main     libc.so.6              [.] 0x0000000000090c0c
+     0.03%  main     libc.so.6              [.] 0x000000000008e9b0
+     0.03%  main     libc.so.6              [.] 0x000000000008f9e4
+     0.03%  main     libc.so.6              [.] 0x000000000008fa1c
+     0.02%  main     libc.so.6              [.] 0x000000000009c054
+     0.02%  main     main                   [.] std::_Hash_bytes@plt
+     0.02%  main     libc.so.6              [.] 0x000000000008eb6c
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__detail::_Prime_rehash_policy::_M_need_rehash
+     0.02%  main     libstdc++.so.6.0.28    [.] free@plt
+     0.02%  main     libgomp.so.1.0.0       [.] 0x000000000001c4ec
+     0.02%  main     libc.so.6              [.] 0x0000000000090c08
+     0.02%  main     libc.so.6              [.] 0x0000000000092010
+     0.02%  main     main                   [.] std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Val_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}> >
+     0.02%  main     [unknown]              [k] 0xffffd3e83490bf80
+     0.02%  main     libc.so.6              [.] 0x000000000008fc78
+     0.02%  main     libc.so.6              [.] 0x000000000009c07c
+     0.02%  main     libc.so.6              [.] 0x000000000008fcf4
+     0.02%  main     libstdc++.so.6.0.28    [.] std::locale::locale
+     0.02%  main     libc.so.6              [.] 0x000000000008fa04
+     0.02%  main     libc.so.6              [.] 0x0000000000092114
+     0.02%  main     libgomp.so.1.0.0       [.] 0x000000000001c21c
+     0.02%  main     libc.so.6              [.] 0x000000000008fad4
+     0.02%  main     libc.so.6              [.] 0x000000000008fc7c
+     0.02%  main     libc.so.6              [.] 0x0000000000090d3c
+     0.02%  main     libc.so.6              [.] 0x000000000008faf0
+     0.02%  main     libc.so.6              [.] 0x000000000008eb74
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::swap
+     0.02%  main     libc.so.6              [.] 0x0000000000090c84
+     0.02%  main     libc.so.6              [.] 0x000000000008f98c
+     0.02%  main     libc.so.6              [.] 0x000000000009c1f8
+     0.02%  main     libstdc++.so.6.0.28    [.] operator delete
+     0.02%  main     libgomp.so.1.0.0       [.] 0x000000000001c210
+     0.02%  main     libc.so.6              [.] 0x0000000000090c28
+     0.02%  main     libc.so.6              [.] 0x0000000000090ca8
+     0.01%  main     main                   [.] PriorityQueue::init
+     0.01%  main     main                   [.] operator new@plt
+     0.01%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1d0
+     0.01%  main     libc.so.6              [.] 0x000000000008f9bc
+     0.01%  main     libc.so.6              [.] 0x000000000008faac
+     0.01%  main     libc.so.6              [.] 0x000000000008eb40
+     0.01%  main     libc.so.6              [.] 0x000000000008fc58
+     0.01%  main     libc.so.6              [.] 0x000000000008f97c
+     0.01%  main     libc.so.6              [.] 0x000000000008fa24
+     0.01%  main     libc.so.6              [.] 0x000000000009c094
+     0.01%  main     libc.so.6              [.] 0x000000000009dca4
+     0.01%  main     libc.so.6              [.] 0x000000000009c090
+     0.01%  main     libc.so.6              [.] 0x000000000009c044
+     0.01%  main     libc.so.6              [.] 0x000000000008eb1c
+     0.01%  main     libc.so.6              [.] 0x000000000008fa30
+     0.01%  main     libc.so.6              [.] 0x0000000000090c24
+     0.01%  main     main                   [.] model::FindLetter
+     0.01%  main     libc.so.6              [.] 0x000000000008fae8
+     0.01%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1d8
+     0.01%  main     libc.so.6              [.] 0x000000000008fa34
+     0.01%  main     libc.so.6              [.] 0x0000000000090de8
+     0.01%  main     libstdc++.so.6.0.28    [.] operator new[]
+     0.01%  main     libc.so.6              [.] 0x0000000000090cd8
+     0.01%  main     libc.so.6              [.] 0x000000000008f960
+     0.01%  main     libc.so.6              [.] 0x00000000000911a8
+     0.01%  main     libc.so.6              [.] 0x000000000008f9c8
+     0.01%  main     libc.so.6              [.] 0x000000000008f980
+     0.01%  main     libc.so.6              [.] 0x000000000008f974
+     0.01%  main     libc.so.6              [.] 0x00000000000916a4
+     0.01%  main     libc.so.6              [.] 0x000000000008f9cc
+     0.01%  main     main                   [.] posix_memalign@plt
+     0.01%  main     libc.so.6              [.] 0x000000000009c05c
+     0.01%  main     libc.so.6              [.] 0x000000000008f9d0
+     0.01%  main     libc.so.6              [.] 0x000000000009c0a0
+     0.01%  main     main                   [.] model::FindDigit
+     0.01%  main     libc.so.6              [.] 0x000000000009dcac
+     0.01%  main     libgomp.so.1.0.0       [.] 0x000000000001c4e0
+     0.01%  main     libc.so.6              [.] 0x000000000008faec
+     0.01%  main     libc.so.6              [.] 0x000000000008eb14
+     0.01%  main     libc.so.6              [.] 0x000000000008eb38
+     0.01%  main     libc.so.6              [.] 0x000000000008f9c4
+     0.01%  main     main                   [.] model::order
+     0.01%  main     libc.so.6              [.] 0x000000000008f9b4
+     0.01%  main     libstdc++.so.6.0.28    [.] std::locale::id::_M_id
+     0.01%  main     libc.so.6              [.] 0x000000000008f9f4
+     0.01%  main     libstdc++.so.6.0.28    [.] memcpy@plt
+     0.01%  main     libstdc++.so.6.0.28    [.] malloc@plt
+     0.01%  main     libc.so.6              [.] 0x000000000008f9dc
+     0.01%  main     libc.so.6              [.] 0x000000000008eb50
+     0.01%  main     libc.so.6              [.] 0x000000000008f99c
+     0.01%  main     libc.so.6              [.] 0x0000000000090cc8
+     0.01%  main     libc.so.6              [.] 0x000000000008fad0
+     0.01%  main     libc.so.6              [.] 0x000000000008eb60
+     0.01%  main     libc.so.6              [.] 0x000000000008eb18
+     0.01%  main     libc.so.6              [.] 0x000000000008fc70
+     0.01%  main     libc.so.6              [.] 0x00000000000912e0
+     0.01%  main     libc.so.6              [.] 0x000000000008fc14
+     0.01%  main     libc.so.6              [.] 0x000000000008eac4
+     0.01%  main     libc.so.6              [.] 0x0000000000090c18
+     0.01%  main     libc.so.6              [.] 0x00000000000908d0
+     0.01%  main     libstdc++.so.6.0.28    [.] std::locale::~locale
+     0.01%  main     libc.so.6              [.] 0x000000000008fcf8
+     0.01%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create
+     0.01%  main     libc.so.6              [.] 0x00000000000911b0
+     0.01%  main     libc.so.6              [.] 0x0000000000091054
+     0.01%  main     main                   [.] operator delete[]@plt
+     0.01%  main     libstdc++.so.6.0.28    [.] operator delete@plt
+     0.01%  main     libc.so.6              [.] 0x000000000009c088
+     0.01%  main     libc.so.6              [.] 0x000000000008fa0c
+     0.01%  main     libc.so.6              [.] 0x000000000008eb04
+     0.01%  main     main                   [.] std::__introsort_loop<__gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > >, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(PT const&, PT const&)> >
+     0.01%  main     main                   [.] std::vector<PT, std::allocator<PT> >::_M_realloc_insert<PT&>
+     0.01%  main     libc.so.6              [.] 0x000000000009dd44
+     0.01%  main     libc.so.6              [.] 0x00000000000910bc
+     0.01%  main     libstdc++.so.6.0.28    [.] std::basic_filebuf<char, std::char_traits<char> >::underflow
+     0.01%  main     libc.so.6              [.] 0x0000000000090dc8
+     0.01%  main     libc.so.6              [.] 0x0000000000090cb0
+     0.01%  main     libc.so.6              [.] 0x0000000000091670
+     0.01%  main     libc.so.6              [.] 0x000000000008fd04
+     0.01%  main     libc.so.6              [.] 0x000000000008f968
+     0.01%  main     libc.so.6              [.] 0x0000000000090d40
+     0.01%  main     libc.so.6              [.] 0x000000000008fa44
+     0.00%  main     libc.so.6              [.] 0x000000000009dc9c
+     0.00%  main     libc.so.6              [.] 0x000000000008fa48
+     0.00%  main     libc.so.6              [.] 0x000000000008fa64
+     0.00%  main     libc.so.6              [.] 0x0000000000090bd8
+     0.00%  main     libc.so.6              [.] 0x000000000009dd34
+     0.00%  main     libstdc++.so.6.0.28    [.] std::locale::id::_M_id@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008e99c
+     0.00%  main     libc.so.6              [.] 0x000000000008e3cc
+     0.00%  main     libc.so.6              [.] 0x00000000000913dc
+     0.00%  main     libc.so.6              [.] 0x000000000008eb68
+     0.00%  main     libc.so.6              [.] 0x000000000008fa8c
+     0.00%  main     libc.so.6              [.] 0x000000000008f9a0
+     0.00%  main     libc.so.6              [.] 0x000000000008eae8
+     0.00%  main     libc.so.6              [.] 0x000000000008fc6c
+     0.00%  main     libc.so.6              [.] 0x000000000008fddc
+     0.00%  main     main                   [.] isalpha@plt
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba204
+     0.00%  main     libc.so.6              [.] 0x00000000000911c8
+     0.00%  main     libc.so.6              [.] 0x000000000008fae4
+     0.00%  main     main                   [.] model::FindSymbol
+     0.00%  main     libc.so.6              [.] 0x000000000008e3c0
+     0.00%  main     libc.so.6              [.] 0x000000000009c1d0
+     0.00%  main     libc.so.6              [.] 0x000000000009c0b0
+     0.00%  main     libc.so.6              [.] 0x000000000008fac8
+     0.00%  main     libc.so.6              [.] 0x000000000008f9ac
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate
+     0.00%  main     [unknown]              [k] 0xffffd3e833b30424
+     0.00%  main     libc.so.6              [.] 0x0000000000092018
+     0.00%  main     libc.so.6              [.] 0x0000000000090d6c
+     0.00%  main     libc.so.6              [.] 0x00000000000911c4
+     0.00%  main     libc.so.6              [.] 0x00000000000912f0
+     0.00%  main     libc.so.6              [.] 0x0000000000090b44
+     0.00%  main     libc.so.6              [.] 0x0000000000090bf4
+     0.00%  main     libc.so.6              [.] 0x0000000000090ba8
+     0.00%  main     libc.so.6              [.] 0x000000000009c068
+     0.00%  main     libc.so.6              [.] 0x000000000008eb2c
+     0.00%  main     libc.so.6              [.] 0x000000000008e988
+     0.00%  main     libc.so.6              [.] 0x000000000009dd60
+     0.00%  main     libc.so.6              [.] 0x000000000008fd08
+     0.00%  main     libc.so.6              [.] 0x000000000008ead8
+     0.00%  main     libc.so.6              [.] 0x000000000008ff68
+     0.00%  main     libc.so.6              [.] 0x000000000009c184
+     0.00%  main     libc.so.6              [.] 0x0000000000090d80
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::swap@plt
+     0.00%  main     libc.so.6              [.] 0x000000000009c18c
+     0.00%  main     libc.so.6              [.] 0x000000000008ff40
+     0.00%  main     libc.so.6              [.] 0x0000000000090e6c
+     0.00%  main     libc.so.6              [.] 0x0000000000091278
+     0.00%  main     libc.so.6              [.] 0x0000000000090d74
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba220
+     0.00%  main     libc.so.6              [.] 0x000000000008fd88
+     0.00%  main     libstdc++.so.6.0.28    [.] std::locale::locale@plt
+     0.00%  main     libc.so.6              [.] 0x0000000000090d20
+     0.00%  main     libstdc++.so.6.0.28    [.] std::locale::~locale@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008fbb4
+     0.00%  main     libc.so.6              [.] 0x0000000000090c20
+     0.00%  main     libstdc++.so.6.0.28    [.] strcmp@plt
+     0.00%  main     libc.so.6              [.] 0x000000000009c0b8
+     0.00%  main     libc.so.6              [.] 0x0000000000090bbc
+     0.00%  main     libc.so.6              [.] 0x0000000000090bfc
+     0.00%  main     libc.so.6              [.] 0x0000000000090a08
+     0.00%  main     libc.so.6              [.] 0x0000000000090d04
+     0.00%  main     libc.so.6              [.] 0x0000000000090920
+     0.00%  main     libc.so.6              [.] 0x0000000000090d1c
+     0.00%  main     libc.so.6              [.] 0x0000000000091084
+     0.00%  main     libc.so.6              [.] 0x0000000000090cf4
+     0.00%  main     libc.so.6              [.] 0x00000000000908ec
+     0.00%  main     libc.so.6              [.] 0x0000000000090bcc
+     0.00%  main     libc.so.6              [.] 0x0000000000090d68
+     0.00%  main     libc.so.6              [.] 0x0000000000090c70
+     0.00%  main     libc.so.6              [.] 0x000000000009dd58
+     0.00%  main     libc.so.6              [.] 0x000000000008fa60
+     0.00%  main     libc.so.6              [.] 0x000000000009dd68
+     0.00%  main     libc.so.6              [.] 0x000000000008eb90
+     0.00%  main     libc.so.6              [.] 0x000000000008eb5c
+     0.00%  main     libc.so.6              [.] 0x000000000008fc74
+     0.00%  main     libc.so.6              [.] 0x000000000008fa74
+     0.00%  main     libc.so.6              [.] 0x0000000000090d90
+     0.00%  main     libc.so.6              [.] 0x000000000008eabc
+     0.00%  main     libc.so.6              [.] 0x000000000009128c
+     0.00%  main     libc.so.6              [.] 0x000000000009dd48
+     0.00%  main     libc.so.6              [.] 0x000000000008eaec
+     0.00%  main     libc.so.6              [.] 0x00000000000913cc
+     0.00%  main     libc.so.6              [.] 0x0000000000090da0
+     0.00%  main     libc.so.6              [.] 0x0000000000090dd4
+     0.00%  main     libc.so.6              [.] 0x000000000009009c
+     0.00%  main     libc.so.6              [.] 0x0000000000090cec
+     0.00%  main     libc.so.6              [.] 0x0000000000090bc8
+     0.00%  main     libc.so.6              [.] 0x000000000008e9c0
+     0.00%  main     libc.so.6              [.] 0x000000000008eb44
+     0.00%  main     libc.so.6              [.] 0x000000000008fa5c
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba21c
+     0.00%  main     libc.so.6              [.] 0x0000000000091480
+     0.00%  main     libc.so.6              [.] 0x0000000000090618
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba200
+     0.00%  main     libc.so.6              [.] 0x0000000000090df8
+     0.00%  main     libc.so.6              [.] 0x00000000000912cc
+     0.00%  main     libc.so.6              [.] 0x00000000000910a0
+     0.00%  main     libc.so.6              [.] 0x00000000000912e8
+     0.00%  main     libc.so.6              [.] 0x0000000000090e9c
+     0.00%  main     libc.so.6              [.] 0x000000000009c0a8
+     0.00%  main     libc.so.6              [.] 0x000000000008fb00
+     0.00%  main     libc.so.6              [.] 0x000000000008fc00
+     0.00%  main     main                   [.] std::__detail::_Prime_rehash_policy::_M_need_rehash@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008fb64
+     0.00%  main     libc.so.6              [.] 0x0000000000090928
+     0.00%  main     libc.so.6              [.] 0x000000000008fd00
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1dc
+     0.00%  main     libc.so.6              [.] 0x0000000000090c1c
+     0.00%  main     libc.so.6              [.] 0x000000000009c0b4
+     0.00%  main     libc.so.6              [.] 0x0000000000091024
+     0.00%  main     libc.so.6              [.] 0x00000000000911cc
+     0.00%  main     libc.so.6              [.] 0x0000000000090cc0
+     0.00%  main     libc.so.6              [.] __sbrk
+     0.00%  main     libc.so.6              [.] 0x000000000009dcb0
+     0.00%  main     libc.so.6              [.] 0x0000000000090d50
+     0.00%  main     libc.so.6              [.] 0x0000000000090b10
+     0.00%  main     libc.so.6              [.] 0x0000000000090a2c
+     0.00%  main     libc.so.6              [.] 0x0000000000091680
+     0.00%  main     libc.so.6              [.] 0x0000000000090a10
+     0.00%  main     libc.so.6              [.] 0x0000000000090268
+     0.00%  main     libc.so.6              [.] 0x0000000000090b58
+     0.00%  main     libstdc++.so.6.0.28    [.] operator new@plt
+     0.00%  main     libc.so.6              [.] 0x00000000000912a8
+     0.00%  main     libc.so.6              [.] 0x0000000000090e14
+     0.00%  main     libc.so.6              [.] 0x0000000000090f28
+     0.00%  main     libc.so.6              [.] 0x000000000009c178
+     0.00%  main     libc.so.6              [.] 0x000000000008e9bc
+     0.00%  main     libc.so.6              [.] 0x000000000008eb78
+     0.00%  main     libc.so.6              [.] 0x000000000008eb64
+     0.00%  main     libc.so.6              [.] 0x000000000009c174
+     0.00%  main     libc.so.6              [.] 0x000000000008eac0
+     0.00%  main     libc.so.6              [.] 0x000000000008fc8c
+     0.00%  main     libstdc++.so.6.0.28    [.] std::chrono::_V2::system_clock::now
+     0.00%  main     libc.so.6              [.] 0x000000000009c170
+     0.00%  main     libc.so.6              [.] 0x000000000008eadc
+     0.00%  main     libc.so.6              [.] 0x000000000009c06c
+     0.00%  main     libc.so.6              [.] 0x000000000008eb10
+     0.00%  main     libc.so.6              [.] 0x0000000000090bd4
+     0.00%  main     libc.so.6              [.] 0x000000000009c1e4
+     0.00%  main     libc.so.6              [.] 0x000000000008e990
+     0.00%  main     libc.so.6              [.] 0x000000000008eaf0
+     0.00%  main     libc.so.6              [.] 0x000000000009c188
+     0.00%  main     libc.so.6              [.] 0x000000000008fa4c
+     0.00%  main     libc.so.6              [.] 0x000000000008fa6c
+     0.00%  main     libc.so.6              [.] 0x000000000009c17c
+     0.00%  main     libc.so.6              [.] 0x00000000000916ac
+     0.00%  main     libc.so.6              [.] 0x000000000004e444
+     0.00%  main     libc.so.6              [.] 0x000000000008fa84
+     0.00%  main     libc.so.6              [.] 0x000000000008fbe0
+     0.00%  main     libc.so.6              [.] 0x000000000008eae0
+     0.00%  main     libc.so.6              [.] 0x000000000009c180
+     0.00%  main     libc.so.6              [.] 0x000000000008ead4
+     0.00%  main     libc.so.6              [.] 0x000000000008fc68
+     0.00%  main     libstdc++.so.6.0.28    [.] std::ostream::sentry::sentry@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008fa2c
+     0.00%  main     libgomp.so.1.0.0       [.] syscall@plt
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba224
+     0.00%  main     libc.so.6              [.] 0x0000000000090dd8
+     0.00%  main     libc.so.6              [.] 0x0000000000091100
+     0.00%  main     libc.so.6              [.] 0x0000000000091174
+     0.00%  main     libstdc++.so.6.0.28    [.] std::use_facet<std::ctype<char> >@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008eb4c
+     0.00%  main     libstdc++.so.6.0.28    [.] std::ostream::sentry::sentry
+     0.00%  main     libc.so.6              [.] 0x000000000008fb28
+     0.00%  main     libc.so.6              [.] _IO_fwrite
+     0.00%  main     libc.so.6              [.] 0x0000000000091378
+     0.00%  main     libc.so.6              [.] 0x000000000009c190
+     0.00%  main     libc.so.6              [.] 0x000000000008fa28
+     0.00%  main     libstdc++.so.6.0.28    [.] __dynamic_cast@plt
+     0.00%  main     libc.so.6              [.] read
+     0.00%  main     main                   [.] std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > >, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(PT const&, PT const&)> >
+     0.00%  main     libc.so.6              [.] 0x000000000008e9fc
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba218
+     0.00%  main     libc.so.6              [.] 0x0000000000090a38
+     0.00%  main     libc.so.6              [.] 0x00000000000912d8
+     0.00%  main     libc.so.6              [.] 0x000000000008fbbc
+     0.00%  main     libc.so.6              [.] 0x000000000008f9c0
+     0.00%  main     libc.so.6              [.] 0x0000000000091074
+     0.00%  main     main                   [.] free@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008e9dc
+     0.00%  main     libc.so.6              [.] 0x000000000009c1ec
+     0.00%  main     libc.so.6              [.] 0x0000000000090fc4
+     0.00%  main     libc.so.6              [.] 0x000000000009008c
+     0.00%  main     libc.so.6              [.] 0x000000000008fb40
+     0.00%  main     libc.so.6              [.] 0x0000000000090e78
+     0.00%  main     libstdc++.so.6.0.28    [.] std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>@plt
+     0.00%  main     libc.so.6              [.] 0x0000000000090a40
+     0.00%  main     libc.so.6              [.] 0x000000000009c0d4
+     0.00%  main     libc.so.6              [.] 0x000000000009dd64
+     0.00%  main     libc.so.6              [.] 0x0000000000090db8
+     0.00%  main     libc.so.6              [.] 0x0000000000090dfc
+     0.00%  main     libc.so.6              [.] 0x000000000008fb9c
+     0.00%  main     libc.so.6              [.] 0x0000000000090e60
+     0.00%  main     libc.so.6              [.] 0x0000000000091190
+     0.00%  main     libc.so.6              [.] 0x00000000000908d8
+     0.00%  main     libc.so.6              [.] 0x000000000009c1f4
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1e0
+     0.00%  main     libc.so.6              [.] 0x0000000000091298
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1f4
+     0.00%  main     libc.so.6              [.] 0x0000000000090a18
+     0.00%  main     main                   [.] std::operator>><char, std::char_traits<char>, std::allocator<char> >@plt
+     0.00%  main     libc.so.6              [.] 0x000000000009c070
+     0.00%  main     libc.so.6              [.] 0x0000000000090980
+     0.00%  main     libc.so.6              [.] 0x00000000000900e8
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::_M_realloc_insert<int>
+     0.00%  main     libstdc++.so.6.0.28    [.] __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::sync
+     0.00%  main     libc.so.6              [.] 0x000000000009108c
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__detail::_Prime_rehash_policy::_M_next_bkt
+     0.00%  main     libc.so.6              [.] 0x000000000008e980
+     0.00%  main     libc.so.6              [.] 0x000000000008fb4c
+     0.00%  main     libc.so.6              [.] 0x0000000000090b00
+     0.00%  main     libc.so.6              [.] 0x000000000008ea00
+     0.00%  main     libc.so.6              [.] 0x000000000009c0ac
+     0.00%  main     libc.so.6              [.] 0x0000000000090dcc
+     0.00%  main     libc.so.6              [.] 0x0000000000090dd0
+     0.00%  main     libc.so.6              [.] 0x0000000000090e08
+     0.00%  main     libc.so.6              [.] 0x0000000000090f20
+     0.00%  main     libc.so.6              [.] fileno_unlocked
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append@plt
+     0.00%  main     libc.so.6              [.] 0x0000000000090d14
+     0.00%  main     libc.so.6              [.] 0x0000000000090ae8
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__basic_file<char>::fd
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create@plt
+     0.00%  main     libc.so.6              [.] 0x0000000000090d08
+     0.00%  main     libc.so.6              [.] 0x000000000009c0a4
+     0.00%  main     libc.so.6              [.] 0x000000000008e3c4
+     0.00%  main     libc.so.6              [.] 0x0000000000090bec
+     0.00%  main     libc.so.6              [.] 0x00000000000911f0
+     0.00%  main     libc.so.6              [.] 0x0000000000090d0c
+     0.00%  main     libc.so.6              [.] 0x0000000000090bb8
+     0.00%  main     libc.so.6              [.] 0x00000000000912e4
+     0.00%  main     libc.so.6              [.] 0x00000000000908e0
+     0.00%  main     libc.so.6              [.] 0x0000000000090d24
+     0.00%  main     libc.so.6              [.] 0x0000000000090a0c
+     0.00%  main     libc.so.6              [.] 0x0000000000090f14
+     0.00%  main     libc.so.6              [.] 0x0000000000090c58
+     0.00%  main     libgomp.so.1.0.0       [.] 0x000000000001c514
+     0.00%  main     libc.so.6              [.] syscall
+     0.00%  main     libc.so.6              [.] 0x0000000000090230
+     0.00%  main     libc.so.6              [.] 0x0000000000090580
+     0.00%  main     libc.so.6              [.] 0x0000000000091688
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x0000000000010490
+     0.00%  main     libc.so.6              [.] 0x0000000000091080
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x000000000000ba80
+     0.00%  main     libc.so.6              [.] 0x0000000000090280
+     0.00%  main     libc.so.6              [.] 0x00000000000911ec
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x00000000000101ac
+     0.00%  main     libc.so.6              [.] 0x000000000008e3c8
+     0.00%  main     libc.so.6              [.] 0x00000000000903d8
+     0.00%  main     libc.so.6              [.] 0x0000000000091698
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x000000000000b2e4
+     0.00%  main     libc.so.6              [.] 0x00000000000902f8
+     0.00%  main     libc.so.6              [.] 0x0000000000090328
+     0.00%  main     libc.so.6              [.] 0x0000000000090220
+     0.00%  main     libc.so.6              [.] 0x000000000009d954
+     0.00%  main     libc.so.6              [.] 0x000000000008f3cc
+     0.00%  main     libc.so.6              [.] 0x000000000008f3e0
+     0.00%  main     libc.so.6              [.] 0x0000000000090380
+     0.00%  main     libc.so.6              [.] 0x0000000000092120
+     0.00%  main     libc.so.6              [.] 0x0000000000090578
+     0.00%  main     libc.so.6              [.] 0x000000000008f338
+     0.00%  main     libc.so.6              [.] 0x000000000008efa0
+     0.00%  main     libgomp.so.1.0.0       [.] omp_get_num_threads
+     0.00%  main     libc.so.6              [.] 0x00000000000903c4
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x000000000000af70
+     0.00%  main     libc.so.6              [.] 0x00000000000903c8
+     0.00%  main     libc.so.6              [.] 0x0000000000090348
+     0.00%  main     libc.so.6              [.] __mprotect
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x000000000000b2f0
+     0.00%  main     libc.so.6              [.] 0x0000000000090340
+     0.00%  main     libc.so.6              [.] 0x0000000000091060
+     0.00%  main     libc.so.6              [.] 0x00000000000903bc
+     0.00%  main     libc.so.6              [.] 0x000000000008f334
+     0.00%  main     libc.so.6              [.] 0x000000000008f358
+     0.00%  main     libc.so.6              [.] 0x000000000008ef90
+     0.00%  main     libc.so.6              [.] 0x0000000000082234
+     0.00%  main     libc.so.6              [.] 0x000000000009037c
+     0.00%  main     libgomp.so.1.0.0       [.] 0x00000000000197d8
+     0.00%  main     libc.so.6              [.] 0x000000000008ef80
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x0000000000010184
+     0.00%  main     libc.so.6              [.] 0x000000000008f340
+     0.00%  main     libc.so.6              [.] __clone
+     0.00%  main     libc.so.6              [.] 0x00000000000912ec
+     0.00%  main     libc.so.6              [.] __munmap
+     0.00%  main     libc.so.6              [.] 0x000000000008ef64
+     0.00%  main     libgomp.so.1.0.0       [.] 0x000000000001c264
+     0.00%  main     libc.so.6              [.] 0x0000000000090360
+     0.00%  main     libc.so.6              [.] 0x0000000000090304
+     0.00%  main     libc.so.6              [.] 0x0000000000082240
+     0.00%  main     libc.so.6              [.] 0x000000000008f29c
+     0.00%  main     libgomp.so.1.0.0       [.] 0x00000000000197d0
+     0.00%  main     libc.so.6              [.] 0x000000000008ef28
+     0.00%  main     libc.so.6              [.] 0x000000000008ef40
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x0000000000018a60
+     0.00%  main     libc.so.6              [.] 0x000000000008f0e0
+     0.00%  main     libgomp.so.1.0.0       [.] 0x00000000000197b8
+     0.00%  main     libc.so.6              [.] __mmap
+     0.00%  main     libc.so.6              [.] 0x0000000000090314
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x0000000000018a54
+     0.00%  main     libgomp.so.1.0.0       [.] 0x000000000001c238
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x000000000001cdc0
+     0.00%  main     libc.so.6              [.] 0x000000000008f31c
+     0.00%  main     libgomp.so.1.0.0       [.] 0x000000000001c234
+     0.00%  main     libgomp.so.1.0.0       [.] 0x000000000001c228
+     0.00%  main     [unknown]              [k] 0xffffd3e833b10734
+     0.00%  main     libc.so.6              [.] 0x0000000000090334
+     0.00%  main     [unknown]              [k] 0xffffd3e83490c038
+
+
+#
+# (Tip: If you prefer Intel style assembly, try: perf annotate -M intel)
+#

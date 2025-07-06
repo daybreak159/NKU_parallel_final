@@ -1,0 +1,735 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 49K of event 'cycles:u'
+# Event count (approx.): 494731310553
+#
+# Overhead  Command  Shared Object          Symbol                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+# ........  .......  .....................  ....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+#
+    17.19%  main     main                   [.] model::FindPT
+    10.23%  main     main                   [.] std::vector<segment, std::allocator<segment> >::size
+     5.26%  main     main                   [.] MD5Hash_SIMD_Batch
+     4.10%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_M_copy_data
+     3.69%  main     main                   [.] MD5Hash
+     2.69%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl_data::_M_copy_data
+     2.62%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_before_node
+     2.06%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_find_before_node
+     1.68%  main     main                   [.] PT::operator=
+     1.63%  main     main                   [.] std::vector<PT, std::allocator<PT> >::operator[]
+     1.55%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data
+     1.43%  main     main                   [.] std::__detail::_Hashtable_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<true, false, true> >::_Equal_hash_code<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::_S_equals
+     1.01%  main     main                   [.] std::vector<PT, std::allocator<PT> >::size
+     0.91%  main     main                   [.] std::vector<int, std::allocator<int> >::_M_move_assign
+     0.89%  main     main                   [.] std::allocator<int>::allocator
+     0.88%  main     main                   [.] std::vector<int, std::allocator<int> >::~vector
+     0.80%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::~_Vector_base
+     0.74%  main     main                   [.] std::vector<int, std::allocator<int> >::operator=
+     0.73%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl_data::_Vector_impl_data
+     0.71%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_bucket_index
+     0.69%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::get_allocator
+     0.65%  main     main                   [.] std::allocator<int>::~allocator
+     0.63%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl
+     0.61%  main     main                   [.] std::vector<segment, std::allocator<segment> >::operator[]
+     0.57%  main     main                   [.] std::__detail::_Map_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[]
+     0.55%  main     main                   [.] __gnu_cxx::new_allocator<int>::~new_allocator
+     0.54%  main     main                   [.] std::__do_alloc_on_move<std::allocator<int> >
+     0.54%  main     main                   [.] std::_Destroy<int*>
+     0.50%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_M_deallocate
+     0.50%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_M_move_assign
+     0.50%  main     main                   [.] std::_Destroy_aux<false>::__destroy<segment*>
+     0.50%  main     main                   [.] std::__alloc_on_move<std::allocator<int> >
+     0.49%  main     main                   [.] std::operator==<char>
+     0.46%  main     main                   [.] std::vector<int, std::allocator<int> >::vector
+     0.45%  main     main                   [.] std::allocator<segment>::allocator
+     0.44%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_M_swap_data
+     0.44%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::~_Vector_base
+     0.42%  main     main                   [.] std::vector<segment, std::allocator<segment> >::operator=
+     0.41%  main     main                   [.] std::vector<segment, std::allocator<segment> >::~vector
+     0.39%  main     main                   [.] std::move<std::allocator<int>&>
+     0.36%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator
+     0.36%  main     main                   [.] StringProcess_Parallel
+     0.35%  main     main                   [.] std::allocator<segment>::~allocator
+     0.35%  main     main                   [.] std::__do_alloc_on_move<std::allocator<segment> >
+     0.32%  main     main                   [.] std::_Destroy<segment*>
+     0.29%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_base
+     0.29%  main     main                   [.] std::__detail::_Map_base<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::at
+     0.28%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::get_allocator
+     0.28%  main     main                   [.] __gnu_cxx::__aligned_buffer<std::pair<int const, int> >::_M_ptr
+     0.28%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_base
+     0.27%  main     main                   [.] std::_Destroy<int*, int>
+     0.26%  main     main                   [.] model::parse
+     0.26%  main     main                   [.] std::__detail::_Hashtable_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<true, false, true> >::_M_equals
+     0.25%  main     main                   [.] std::equal_to<int>::operator()
+     0.24%  main     main                   [.] segment::segment
+     0.23%  main     main                   [.] std::vector<int, std::allocator<int> >::vector
+     0.23%  main     main                   [.] std::__detail::_Hash_node_base::_Hash_node_base
+     0.23%  main     main                   [.] std::__copy_move_backward<true, false, std::random_access_iterator_tag>::__copy_move_b<PT*, PT*>
+     0.23%  main     main                   [.] std::__alloc_on_move<std::allocator<segment> >
+     0.22%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string
+     0.22%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl_data::_M_swap_data
+     0.22%  main     main                   [.] __gnu_cxx::new_allocator<segment>::~new_allocator
+     0.22%  main     main                   [.] StringProcess
+     0.21%  main     main                   [.] __gnu_cxx::__aligned_buffer<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >::_M_ptr
+     0.21%  main     main                   [.] std::move<std::allocator<segment>&>
+     0.21%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector
+     0.20%  main     libc.so.6              [.] cfree
+     0.20%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_find_node
+     0.20%  main     main                   [.] std::move<std::vector<int, std::allocator<int> >&>
+     0.20%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_allocate_buckets
+     0.20%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_M_get_Tp_allocator
+     0.20%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string
+     0.20%  main     main                   [.] std::vector<int, std::allocator<int> >::begin
+     0.20%  main     main                   [.] std::vector<segment, std::allocator<segment> >::vector
+     0.20%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash_aux
+     0.19%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl
+     0.19%  main     main                   [.] std::_Destroy_aux<true>::__destroy<int*>
+     0.19%  main     main                   [.] std::__copy_move<true, false, std::random_access_iterator_tag>::__copy_m<PT*, PT*>
+     0.19%  main     main                   [.] __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::__normal_iterator
+     0.19%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_M_deallocate
+     0.19%  main     main                   [.] std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator()
+     0.18%  main     libstdc++.so.6.0.28    [.] std::_Hash_bytes
+     0.18%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector
+     0.18%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl::_Vector_impl
+     0.18%  main     main                   [.] std::__detail::_Hashtable_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::_M_equals
+     0.18%  main     main                   [.] __gnu_cxx::new_allocator<int>::new_allocator
+     0.18%  main     libc.so.6              [.] memcmp
+     0.17%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_Hashtable
+     0.17%  main     main                   [.] std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocator
+     0.17%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>
+     0.17%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::__normal_iterator
+     0.17%  main     main                   [.] std::__detail::_Mod_range_hashing::operator()
+     0.17%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_M_get_Tp_allocator
+     0.16%  main     libc.so.6              [.] malloc
+     0.16%  main     libc.so.6              [.] 0x000000000009c098
+     0.16%  main     main                   [.] model::FindLetter
+     0.16%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_find_node
+     0.16%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_h1
+     0.16%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_h1
+     0.16%  main     main                   [.] __gnu_cxx::__aligned_buffer<std::pair<int const, int> >::_M_addr
+     0.15%  main     main                   [.] std::copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>
+     0.15%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string
+     0.15%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_M_deallocate_nodes
+     0.14%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_M_deallocate_nodes
+     0.14%  main     libc.so.6              [.] 0x000000000009c080
+     0.14%  main     main                   [.] std::move<std::vector<segment, std::allocator<segment> >&>
+     0.13%  main     main                   [.] std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.13%  main     main                   [.] std::__detail::_Hashtable_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<true, false, true> >::_M_eq
+     0.13%  main     main                   [.] __gnu_cxx::operator!=<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+     0.12%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<2, std::__detail::_Mod_range_hashing, true>::_M_cget
+     0.12%  main     main                   [.] std::_Destroy<segment*, segment>
+     0.12%  main     main                   [.] std::vector<int, std::allocator<int> >::end
+     0.12%  main     main                   [.] segment::~segment
+     0.12%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_Hashtable
+     0.12%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl::~_Vector_impl
+     0.12%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_M_get_Tp_allocator
+     0.12%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::begin
+     0.12%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_begin
+     0.12%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_allocate_buckets
+     0.11%  main     main                   [.] __gnu_cxx::__aligned_buffer<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >::_M_addr
+     0.11%  main     main                   [.] std::__detail::_Select1st::operator()<std::pair<int const, int>&>
+     0.11%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_h2
+     0.11%  main     libc.so.6              [.] 0x000000000008e9ac
+     0.11%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::clear
+     0.11%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_hash_code
+     0.11%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_deallocate_buckets
+     0.11%  main     main                   [.] segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}::operator()
+     0.11%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<1, std::hash<int>, true>::_M_cget
+     0.10%  main     main                   [.] std::char_traits<char>::compare
+     0.10%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::end
+     0.10%  main     main                   [.] std::_Destroy_aux<false>::__destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.10%  main     main                   [.] std::unordered_map<int, int, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<int const, int> > >::at
+     0.10%  main     main                   [.] std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::allocator
+     0.10%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_M_create_storage
+     0.10%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_M_allocate
+     0.10%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::clear
+     0.10%  main     main                   [.] std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.10%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<int const, int> >::_M_valptr
+     0.10%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_assign<std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > > >
+     0.10%  main     main                   [.] model::FindDigit
+     0.10%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_base
+     0.10%  main     main                   [.] std::__niter_base<int const*, std::vector<int, std::allocator<int> > >
+     0.09%  main     main                   [.] __gnu_cxx::new_allocator<segment>::new_allocator
+     0.09%  main     main                   [.] std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*, int>
+     0.09%  main     main                   [.] std::__detail::_Select1st::operator()<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>&>
+     0.09%  main     libc.so.6              [.] 0x000000000008e9b8
+     0.09%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<1, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>::_M_cget
+     0.09%  main     libstdc++.so.6.0.28    [.] std::operator>><char, std::char_traits<char>, std::allocator<char> >
+     0.09%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_create_storage
+     0.09%  main     libstdc++.so.6.0.28    [.] std::istream::sentry::sentry
+     0.09%  main     main                   [.] std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<int>
+     0.08%  main     main                   [.] std::_Hash_impl::hash
+     0.08%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::size
+     0.08%  main     main                   [.] std::__uninitialized_copy<true>::__uninit_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>
+     0.08%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_bucket_index
+     0.08%  main     main                   [.] std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator()
+     0.08%  main     main                   [.] std::__detail::_Hashtable_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::_M_eq
+     0.08%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::__detail::_Select1st, true>::_M_cget
+     0.08%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::data@plt
+     0.08%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_h2
+     0.08%  main     main                   [.] std::get<0ul, int const, int>
+     0.08%  main     main                   [.] std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true>::_M_next
+     0.08%  main     main                   [.] std::vector<int, std::allocator<int> >::size
+     0.08%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_deallocate_buckets
+     0.08%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_hash_code
+     0.08%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_deallocate_buckets
+     0.08%  main     main                   [.] __gnu_cxx::operator!=<segment const*, std::vector<segment, std::allocator<segment> > >
+     0.08%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~_Vector_base
+     0.07%  main     main                   [.] std::__addressof<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.07%  main     main                   [.] std::unordered_map<int, int, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<int const, int> > >::unordered_map
+     0.07%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_M_node_allocator
+     0.07%  main     main                   [.] std::__copy_move_a1<false, int const*, int*>
+     0.07%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::find
+     0.07%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_bucket_index
+     0.07%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >, true>::_Hashtable_ebo_helper<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >
+     0.07%  main     main                   [.] std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::allocator
+     0.07%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::operator++
+     0.07%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::~unordered_map
+     0.07%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::~_Hashtable
+     0.07%  main     main                   [.] std::__miter_base<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > > >
+     0.07%  main     main                   [.] PT::PT
+     0.07%  main     main                   [.] std::__pair_get<0ul>::__get<int const, int>
+     0.07%  main     main                   [.] std::allocator_traits<std::allocator<int> >::select_on_container_copy_construction
+     0.07%  main     main                   [.] __gnu_cxx::operator!=<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.07%  main     main                   [.] std::__pair_get<0ul>::__get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>
+     0.06%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string@plt
+     0.06%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, true>::_M_cget
+     0.06%  main     main                   [.] std::__detail::_Map_base<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>, true>::operator[]
+     0.06%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable
+     0.06%  main     main                   [.] std::get<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>
+     0.06%  main     main                   [.] __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.06%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data
+     0.06%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::~new_allocator
+     0.06%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_begin
+     0.06%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_assign<std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > > >
+     0.06%  main     main                   [.] std::forward<std::pair<int const, int>&>
+     0.06%  main     main                   [.] std::forward<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>&>
+     0.06%  main     main                   [.] __gnu_cxx::__alloc_traits<std::allocator<int>, int>::_S_select_on_copy
+     0.06%  main     main                   [.] std::forward<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.06%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_rehash_aux
+     0.06%  main     main                   [.] __gnu_cxx::operator==<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+     0.06%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_extract
+     0.06%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_M_node_allocator
+     0.06%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size@plt
+     0.06%  main     main                   [.] std::__copy_move_a<false, __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>
+     0.05%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::operator*
+     0.05%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_deallocate_buckets
+     0.05%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_uses_single_bucket
+     0.05%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::operator[]
+     0.05%  main     main                   [.] std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_AllocNode
+     0.05%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_bucket_begin
+     0.05%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >
+     0.05%  main     main                   [.] std::uninitialized_copy<__gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >, int*>
+     0.05%  main     main                   [.] std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>::base
+     0.05%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::unordered_map
+     0.05%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, true>::_M_cget
+     0.05%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size
+     0.05%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_M_realloc_insert<segment&>
+     0.05%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::base
+     0.05%  main     main                   [.] std::move<PT&>
+     0.05%  main     main                   [.] std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>
+     0.05%  main     main                   [.] std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::~allocator
+     0.05%  main     main                   [.] std::_Construct<segment, segment const&>
+     0.05%  main     main                   [.] std::forward<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >
+     0.05%  main     main                   [.] std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.04%  main     main                   [.] __gnu_cxx::__ops::_Iter_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}>::operator()<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >
+     0.04%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::equal_to<int>, true>::_M_cget
+     0.04%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >::_M_valptr
+     0.04%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, true>::_Hashtable_ebo_helper<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >
+     0.04%  main     main                   [.] __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~new_allocator
+     0.04%  main     libc.so.6              [.] isalpha
+     0.04%  main     main                   [.] std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::~allocator
+     0.04%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::~new_allocator
+     0.04%  main     main                   [.] std::forward<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >
+     0.04%  main     main                   [.] std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~allocator
+     0.04%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_extract
+     0.04%  main     main                   [.] std::__detail::_Hash_node<std::pair<int const, int>, false>::_M_next
+     0.04%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_deallocate
+     0.04%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_uses_single_bucket
+     0.04%  main     main                   [.] std::__copy_move_a2<false, int const*, int*>
+     0.04%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >
+     0.04%  main     main                   [.] __gnu_cxx::operator< <std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+     0.04%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<int const, int> >::_M_v
+     0.04%  main     libc.so.6              [.] 0x000000000008eba0
+     0.04%  main     main                   [.] __gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >::__normal_iterator
+     0.04%  main     main                   [.] std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::select_on_container_copy_construction
+     0.04%  main     libstdc++.so.6.0.28    [.] __dynamic_cast
+     0.04%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl::_Vector_impl
+     0.04%  main     main                   [.] std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::select_on_container_copy_construction
+     0.04%  main     main                   [.] std::__relocate_a<segment*, segment*, std::allocator<segment> >
+     0.04%  main     main                   [.] std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.04%  main     main                   [.] main
+     0.04%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_M_allocate
+     0.04%  main     libc.so.6              [.] 0x000000000009e1e0
+     0.04%  main     main                   [.] std::__addressof<segment>
+     0.04%  main     main                   [.] std::__relocate_a_1<segment*, segment*, std::allocator<segment> >
+     0.04%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_bucket_index
+     0.04%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >::_M_v
+     0.04%  main     main                   [.] __gnu_cxx::new_allocator<segment>::deallocate
+     0.04%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >, true>::_M_cget
+     0.04%  main     main                   [.] std::uninitialized_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.04%  main     main                   [.] std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >, segment*>
+     0.03%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate
+     0.03%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::operator--
+     0.03%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_bucket_index
+     0.03%  main     main                   [.] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator++
+     0.03%  main     main                   [.] std::vector<segment, std::allocator<segment> >::begin
+     0.03%  main     libstdc++.so.6.0.28    [.] operator delete
+     0.03%  main     main                   [.] std::__relocate_object_a<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+     0.03%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::data
+     0.03%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_M_create_storage
+     0.03%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.03%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::end
+     0.03%  main     main                   [.] std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.03%  main     main                   [.] std::unordered_map<int, int, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<int const, int> > >::~unordered_map
+     0.03%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_get_Tp_allocator
+     0.03%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_bucket_index
+     0.03%  main     main                   [.] std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::select_on_container_copy_construction
+     0.03%  main     main                   [.] __gnu_cxx::new_allocator<int>::new_allocator
+     0.03%  main     main                   [.] std::vector<segment, std::allocator<segment> >::end
+     0.03%  main     main                   [.] PriorityQueue::Generate
+     0.03%  main     main                   [.] std::vector<segment, std::allocator<segment> >::end
+     0.03%  main     libstdc++.so.6.0.28    [.] __cxxabiv1::__vmi_class_type_info::__do_dyncast
+     0.03%  main     libc.so.6              [.] 0x000000000008fa50
+     0.03%  main     main                   [.] std::vector<segment, std::allocator<segment> >::vector
+     0.03%  main     main                   [.] std::__niter_base<segment*>
+     0.03%  main     main                   [.] __gnu_cxx::__normal_iterator<segment*, std::vector<segment, std::allocator<segment> > >::__normal_iterator
+     0.03%  main     main                   [.] __gnu_cxx::new_allocator<segment>::max_size
+     0.03%  main     main                   [.] std::__detail::_Node_iterator_base<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true>::_Node_iterator_base
+     0.03%  main     libc.so.6              [.] 0x000000000009c0a0
+     0.03%  main     main                   [.] std::move_iterator<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::base
+     0.03%  main     main                   [.] std::operator==<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.03%  main     libc.so.6              [.] 0x000000000009dc80
+     0.03%  main     libc.so.6              [.] 0x000000000008fce8
+     0.03%  main     main                   [.] std::swap<char, std::char_traits<char>, std::allocator<char> >
+     0.03%  main     main                   [.] __gnu_cxx::new_allocator<segment>::construct<segment, segment&>
+     0.03%  main     main                   [.] std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.03%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >, true>::~_Hashtable_ebo_helper
+     0.03%  main     main                   [.] std::vector<segment, std::allocator<segment> >::max_size
+     0.02%  main     main                   [.] std::vector<int, std::allocator<int> >::emplace_back<int&>
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::swap
+     0.02%  main     main                   [.] std::__detail::_Hashtable_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Hashtable_traits<false, false, true> >::_Equal_hash_code<std::__detail::_Hash_node<std::pair<int const, int>, false> >::_S_equals
+     0.02%  main     libc.so.6              [.] 0x000000000008eb20
+     0.02%  main     main                   [.] std::hash<int>::operator()
+     0.02%  main     main                   [.] operator new
+     0.02%  main     main                   [.] std::_Destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.02%  main     libc.so.6              [.] 0x000000000009e1c0
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append@plt
+     0.02%  main     main                   [.] std::__unguarded_partition<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}> >
+     0.02%  main     libc.so.6              [.] 0x000000000009c09c
+     0.02%  main     main                   [.] __gnu_cxx::new_allocator<segment>::_M_max_size
+     0.02%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_base
+     0.02%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl::~_Vector_impl
+     0.02%  main     main                   [.] _init
+     0.02%  main     main                   [.] std::max<int>
+     0.02%  main     main                   [.] __gnu_cxx::__alloc_traits<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >, std::__detail::_Hash_node<std::pair<int const, int>, false> >::_S_select_on_copy
+     0.02%  main     main                   [.] PT::~PT
+     0.02%  main     main                   [.] segment::segment
+     0.02%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_insert_unique_node
+     0.02%  main     main                   [.] std::unordered_map<int, int, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<int const, int> > >::operator[]
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=
+     0.02%  main     main                   [.] std::allocator_traits<std::allocator<segment> >::max_size
+     0.02%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl_data::_Vector_impl_data
+     0.02%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::~_Hashtable_alloc
+     0.02%  main     libc.so.6              [.] 0x000000000009c040
+     0.02%  main     main                   [.] std::__fill_a1<std::array<unsigned int, 4ul>*, std::array<unsigned int, 4ul> >
+     0.02%  main     main                   [.] std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.02%  main     main                   [.] __gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::_S_select_on_copy
+     0.02%  main     main                   [.] __gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >::operator++
+     0.02%  main     main                   [.] std::allocator_traits<std::allocator<segment> >::construct<segment, segment&>
+     0.02%  main     main                   [.] PriorityQueue::CalProb
+     0.02%  main     main                   [.] segment::insert
+     0.02%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl
+     0.02%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_base
+     0.02%  main     main                   [.] PT::insert
+     0.02%  main     main                   [.] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator*
+     0.02%  main     libc.so.6              [.] 0x000000000009c088
+     0.02%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::length@plt
+     0.02%  main     main                   [.] std::forward<segment const&>
+     0.02%  main     libstdc++.so.6.0.28    [.] operator new
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>
+     0.02%  main     main                   [.] model::FindSymbol
+     0.02%  main     main                   [.] __gnu_cxx::operator-<segment*, std::vector<segment, std::allocator<segment> > >
+     0.02%  main     libstdc++.so.6.0.28    [.] std::__detail::_Prime_rehash_policy::_M_need_rehash
+     0.02%  main     main                   [.] std::allocator_traits<std::allocator<segment> >::allocate
+     0.02%  main     main                   [.] __gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >::base
+     0.02%  main     libstdc++.so.6.0.28    [.] operator delete
+     0.02%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_bucket_index
+     0.02%  main     main                   [.] std::operator!=<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.02%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl_data::_Vector_impl_data
+     0.01%  main     main                   [.] std::iter_swap<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >
+     0.01%  main     libc.so.6              [.] strcmp
+     0.01%  main     main                   [.] isalpha@plt
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::new_allocator
+     0.01%  main     main                   [.] __gnu_cxx::__normal_iterator<int const*, std::vector<int, std::allocator<int> > >::base
+     0.01%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_impl::_Vector_impl
+     0.01%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_Hashtable
+     0.01%  main     main                   [.] std::vector<segment, std::allocator<segment> >::begin
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<segment> >::deallocate
+     0.01%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_S_do_relocate
+     0.01%  main     main                   [.] std::vector<segment, std::allocator<segment> >::emplace_back<segment&>
+     0.01%  main     main                   [.] std::_Head_base<0ul, int const&, false>::_M_head
+     0.01%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::base
+     0.01%  main     main                   [.] std::operator==<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >
+     0.01%  main     main                   [.] std::__relocate_a_1<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+     0.01%  main     libstdc++.so.6.0.28    [.] std::basic_ios<char, std::char_traits<char> >::operator bool
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::destroy<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >
+     0.01%  main     libc.so.6              [.] 0x000000000009c044
+     0.01%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append
+     0.01%  main     main                   [.] std::min<unsigned long>
+     0.01%  main     main                   [.] __gnu_cxx::operator!=<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+     0.01%  main     main                   [.] memcmp@plt
+     0.01%  main     libc.so.6              [.] 0x000000000008f990
+     0.01%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_M_allocate_node<std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>, std::tuple<> >
+     0.01%  main     libc.so.6              [.] 0x000000000008e9a4
+     0.01%  main     main                   [.] std::uninitialized_copy<__gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >, segment*>
+     0.01%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, true>::_Hashtable_ebo_helper
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::construct<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>, std::tuple<> >
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<segment>::allocate
+     0.01%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_Scoped_node::_Scoped_node<std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>, std::tuple<> >
+     0.01%  main     main                   [.] std::move<segment&>
+     0.01%  main     libstdc++.so.6.0.28    [.] operator delete@plt
+     0.01%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_M_check_len
+     0.01%  main     main                   [.] __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::base
+     0.01%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<int const, int> >::_M_v
+     0.01%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string@plt
+     0.01%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator[]
+     0.01%  main     main                   [.] std::array<unsigned int, 4ul>::data
+     0.01%  main     main                   [.] std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Val_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}> >
+     0.01%  main     libc.so.6              [.] 0x000000000009c078
+     0.01%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector
+     0.01%  main     main                   [.] std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>::_Tuple_impl
+     0.01%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_Hashtable
+     0.01%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1d0
+     0.01%  main     libc.so.6              [.] 0x000000000008f9c8
+     0.01%  main     libc.so.6              [.] 0x000000000009dce4
+     0.01%  main     main                   [.] std::_Tuple_impl<0ul, int const&>::_Tuple_impl
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::new_allocator
+     0.01%  main     main                   [.] std::_Destroy<segment>
+     0.01%  main     libstdc++.so.6.0.28    [.] std::use_facet<std::ctype<char> >
+     0.01%  main     main                   [.] std::forward<std::piecewise_construct_t const&>
+     0.01%  main     libc.so.6              [.] 0x000000000009c0dc
+     0.01%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_Hashtable
+     0.01%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, true>::_M_get
+     0.01%  main     libstdc++.so.6.0.28    [.] std::allocator<char>::allocator
+     0.01%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::~_Hashtable_alloc
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::new_allocator
+     0.01%  main     main                   [.] __gnu_cxx::__alloc_traits<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::_S_select_on_copy
+     0.01%  main     libstdc++.so.6.0.28    [.] std::locale::id::_M_id
+     0.01%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_base
+     0.01%  main     main                   [.] model::train
+     0.01%  main     libc.so.6              [.] 0x000000000008f970
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::new_allocator
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<segment>::new_allocator
+     0.01%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_S_relocate
+     0.01%  main     main                   [.] std::vector<std::array<unsigned int, 4ul>, std::allocator<std::array<unsigned int, 4ul> > >::operator[]
+     0.01%  main     main                   [.] memset@plt
+     0.01%  main     libc.so.6              [.] 0x000000000009c084
+     0.01%  main     libc.so.6              [.] 0x000000000009dce8
+     0.01%  main     libc.so.6              [.] 0x000000000008e9b4
+     0.01%  main     libc.so.6              [.] 0x000000000008e9a8
+     0.01%  main     libc.so.6              [.] 0x000000000008e9a0
+     0.01%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_reset
+     0.01%  main     main                   [.] std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >, segment*, segment>
+     0.01%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_S_use_relocate
+     0.01%  main     libc.so.6              [.] 0x000000000008fae8
+     0.01%  main     main                   [.] std::max<unsigned long>
+     0.01%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl::_Vector_impl
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::new_allocator
+     0.01%  main     main                   [.] std::allocator<segment>::allocator
+     0.01%  main     libstdc++.so.6.0.28    [.] strlen@plt
+     0.01%  main     main                   [.] std::move<std::_Vector_base<int, std::allocator<int> >::_Vector_impl&>
+     0.01%  main     libstdc++.so.6.0.28    [.] memcpy@plt
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<segment> >::select_on_container_copy_construction
+     0.01%  main     main                   [.] std::__relocate_object_a<segment, segment, std::allocator<segment> >
+     0.01%  main     main                   [.] std::forward<segment&>
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::construct<std::pair<int const, int>, std::piecewise_construct_t const&, std::tuple<int const&>, std::tuple<> >
+     0.01%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl::_Vector_impl
+     0.01%  main     libc.so.6              [.] 0x000000000008f960
+     0.01%  main     main                   [.] std::pair<int const, int>::pair<int const&, 0ul>
+     0.01%  main     main                   [.] std::__niter_wrap<int*>
+     0.01%  main     main                   [.] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, 0ul>
+     0.01%  main     main                   [.] std::__detail::_Prime_rehash_policy::_Prime_rehash_policy
+     0.01%  main     main                   [.] std::__niter_base<int*>
+     0.01%  main     main                   [.] std::move<std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_impl&>
+     0.01%  main     main                   [.] std::__detail::_Prime_rehash_policy::_M_reset
+     0.01%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_Hashtable_alloc
+     0.01%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >, true>::_Hashtable_ebo_helper
+     0.01%  main     libc.so.6              [.] 0x000000000008fcf4
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<int>::max_size
+     0.01%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_M_allocate_node<std::piecewise_construct_t const&, std::tuple<int const&>, std::tuple<> >
+     0.01%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string@plt
+     0.01%  main     libc.so.6              [.] 0x000000000008f9e4
+     0.01%  main     libc.so.6              [.] 0x00000000000911dc
+     0.01%  main     libc.so.6              [.] 0x00000000000911b8
+     0.01%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string
+     0.01%  main     main                   [.] std::__array_traits<unsigned int, 4ul>::_S_ptr
+     0.01%  main     main                   [.] std::operator+<char, std::char_traits<char>, std::allocator<char> >
+     0.01%  main     main                   [.] __gnu_cxx::__ops::_Val_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}>::_Val_comp_iter
+     0.01%  main     main                   [.] std::_Hash_bytes@plt
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<int> >::construct<int, int&>
+     0.01%  main     libc.so.6              [.] 0x000000000008fa1c
+     0.01%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::length
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::deallocate
+     0.01%  main     main                   [.] std::_Tuple_impl<0ul, int const&>::_M_head
+     0.01%  main     libstdc++.so.6.0.28    [.] malloc@plt
+     0.01%  main     main                   [.] std::vector<int, std::allocator<int> >::vector
+     0.01%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_Scoped_node::_Scoped_node<std::piecewise_construct_t const&, std::tuple<int const&>, std::tuple<> >
+     0.01%  main     main                   [.] std::__detail::operator==<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true>
+     0.01%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, true>::~_Hashtable_ebo_helper
+     0.01%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::empty
+     0.01%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::clear
+     0.01%  main     main                   [.] std::vector<int, std::allocator<int> >::_M_realloc_insert<int>
+     0.01%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::construct<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>, std::tuple<> >
+     0.01%  main     libstdc++.so.6.0.28    [.] free@plt
+     0.01%  main     main                   [.] __gnu_cxx::__normal_iterator<segment*, std::vector<segment, std::allocator<segment> > >::base
+     0.01%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_M_node_allocator
+     0.01%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_Hashtable_alloc
+     0.01%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_bucket_begin
+     0.01%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator+=@plt
+     0.01%  main     main                   [.] std::forward<segment>
+     0.01%  main     main                   [.] std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocator
+     0.01%  main     main                   [.] std::allocator_traits<std::allocator<segment> >::construct<segment, segment>
+     0.01%  main     main                   [.] std::allocator<int>::allocator
+     0.01%  main     main                   [.] std::vector<int, std::allocator<int> >::vector
+     0.01%  main     libc.so.6              [.] 0x00000000000912e8
+     0.01%  main     main                   [.] __gnu_cxx::__alloc_traits<std::allocator<segment>, segment>::_S_select_on_copy
+     0.01%  main     main                   [.] __gnu_cxx::__aligned_buffer<std::pair<int const, int> >::_M_ptr
+     0.01%  main     main                   [.] std::_Tuple_impl<0ul, int const&>::_Tuple_impl
+     0.01%  main     libc.so.6              [.] 0x000000000008eac8
+     0.01%  main     main                   [.] std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>::_M_head
+     0.01%  main     [unknown]              [k] 0xffffd3e83490bf80
+     0.01%  main     main                   [.] std::__detail::_Node_iterator_base<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true>::_M_incr
+     0.01%  main     libstdc++.so.6.0.28    [.] std::locale::~locale
+     0.01%  main     main                   [.] std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::allocator
+     0.01%  main     main                   [.] std::operator!=<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >
+     0.01%  main     main                   [.] std::move_iterator<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::operator++
+     0.01%  main     main                   [.] std::__uninitialized_copy<false>::__uninit_copy<std::move_iterator<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>
+     0.01%  main     main                   [.] __gnu_cxx::__normal_iterator<segment const*, std::vector<segment, std::allocator<segment> > >::operator*
+     0.01%  main     main                   [.] std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>::operator*
+     0.00%  main     [unknown]              [k] 0xffffd3e833b10734
+     0.00%  main     libc.so.6              [.] 0x000000000009dc84
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append
+     0.00%  main     libc.so.6              [.] 0x000000000008fd08
+     0.00%  main     libc.so.6              [.] 0x000000000009dcac
+     0.00%  main     libc.so.6              [.] 0x000000000008fae4
+     0.00%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl_data::_Vector_impl_data
+     0.00%  main     libc.so.6              [.] 0x000000000009c090
+     0.00%  main     libc.so.6              [.] 0x000000000008f9a0
+     0.00%  main     main                   [.] std::forward<int&>
+     0.00%  main     libc.so.6              [.] 0x000000000008f98c
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::operator[]
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::allocate
+     0.00%  main     main                   [.] __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::operator+
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<int>::deallocate
+     0.00%  main     libc.so.6              [.] 0x00000000000916a4
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>@plt
+     0.00%  main     libc.so.6              [.] 0x000000000009c0b4
+     0.00%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl::_Vector_impl
+     0.00%  main     libc.so.6              [.] 0x000000000009c05c
+     0.00%  main     libc.so.6              [.] 0x000000000008fa0c
+     0.00%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_Scoped_node::~_Scoped_node
+     0.00%  main     main                   [.] __gnu_cxx::__aligned_buffer<std::pair<int const, int> >::_M_addr
+     0.00%  main     libc.so.6              [.] 0x000000000008f9c4
+     0.00%  main     main                   [.] std::forward<int const&>
+     0.00%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::size
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<segment>::construct<segment, segment>
+     0.00%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_base
+     0.00%  main     libc.so.6              [.] 0x000000000008eac4
+     0.00%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_M_deallocate_node_ptr
+     0.00%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_get_Tp_allocator
+     0.00%  main     libc.so.6              [.] 0x000000000008eb18
+     0.00%  main     libc.so.6              [.] 0x000000000008fa10
+     0.00%  main     main                   [.] std::__detail::_Select1st::operator()<std::pair<int const, int> const&>
+     0.00%  main     main                   [.] std::unordered_map<int, int, std::hash<int>, std::equal_to<int>, std::allocator<std::pair<int const, int> > >::unordered_map
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<segment>::destroy<segment>
+     0.00%  main     libc.so.6              [.] 0x000000000008faf0
+     0.00%  main     main                   [.] std::__relocate_a_1<int, int>
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<int>::construct<int, int>
+     0.00%  main     main                   [.] std::__detail::_Hash_code_base<int, std::pair<int const, int>, std::__detail::_Select1st, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, false>::_M_store_code
+     0.00%  main     main                   [.] std::__pair_get<0ul>::__const_get<int const, int>
+     0.00%  main     libc.so.6              [.] 0x000000000008fb64
+     0.00%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::find
+     0.00%  main     libc.so.6              [.] 0x000000000008fcf8
+     0.00%  main     main                   [.] std::move_iterator<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::operator*
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::_M_realloc_insert<unsigned long>
+     0.00%  main     main                   [.] PT::PT
+     0.00%  main     main                   [.] segment::segment
+     0.00%  main     libc.so.6              [.] 0x000000000008faec
+     0.00%  main     main                   [.] std::__detail::_Hash_code_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::__detail::_Select1st, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, true>::_M_store_code
+     0.00%  main     main                   [.] std::__detail::_Hash_node_base::_Hash_node_base
+     0.00%  main     libc.so.6              [.] 0x000000000008fa04
+     0.00%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::unordered_map
+     0.00%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::end
+     0.00%  main     main                   [.] std::__detail::_Node_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, false, true>::_Node_iterator
+     0.00%  main     main                   [.] std::_Vector_base<int, std::allocator<int> >::_Vector_base
+     0.00%  main     libc.so.6              [.] 0x000000000008f9cc
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::construct<std::pair<int const, int>, std::piecewise_construct_t const&, std::tuple<int const&>, std::tuple<> >
+     0.00%  main     libc.so.6              [.] 0x000000000008f9b4
+     0.00%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >, true>::_Hashtable_ebo_helper
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::empty@plt
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::_S_do_relocate
+     0.00%  main     main                   [.] std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >::allocator
+     0.00%  main     main                   [.] std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_AllocNode
+     0.00%  main     main                   [.] std::move_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>::operator++
+     0.00%  main     libc.so.6              [.] 0x0000000000091084
+     0.00%  main     libc.so.6              [.] 0x00000000000911a8
+     0.00%  main     libc.so.6              [.] 0x0000000000090cd8
+     0.00%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_S_nothrow_relocate
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str@plt
+     0.00%  main     main                   [.] std::forward<PT>
+     0.00%  main     libc.so.6              [.] 0x000000000009dc94
+     0.00%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator[]
+     0.00%  main     libc.so.6              [.] 0x000000000009133c
+     0.00%  main     main                   [.] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int>::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int, true>
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append@plt
+     0.00%  main     libc.so.6              [.] 0x000000000008f9f4
+     0.00%  main     libc.so.6              [.] 0x000000000009c07c
+     0.00%  main     main                   [.] std::__niter_wrap<__gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > >, PT*>
+     0.00%  main     libc.so.6              [.] 0x000000000008fd04
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=
+     0.00%  main     main                   [.] __gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > >::operator+
+     0.00%  main     main                   [.] std::__unguarded_partition<__gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > >, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(PT const&, PT const&)> >
+     0.00%  main     main                   [.] __gnu_cxx::__ops::_Val_comp_iter<PriorityQueue::init()::{lambda(PT const&, PT const&)#1}>::operator()<PT, __gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > > >
+     0.00%  main     main                   [.] std::__move_median_to_first<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}> >
+     0.00%  main     main                   [.] __gnu_cxx::operator-<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >
+     0.00%  main     main                   [.] std::__unguarded_partition_pivot<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}> >
+     0.00%  main     main                   [.] std::vector<PT, std::allocator<PT> >::_M_realloc_insert<PT&>
+     0.00%  main     main                   [.] __gnu_cxx::__ops::__val_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}>
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::_M_check_len
+     0.00%  main     main                   [.] __gnu_cxx::__normal_iterator<PT const*, std::vector<PT, std::allocator<PT> > >::__normal_iterator<PT*>
+     0.00%  main     libc.so.6              [.] clock_gettime
+     0.00%  main     main                   [.] std::move<__gnu_cxx::__ops::_Iter_comp_iter<segment::order()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}>&>
+     0.00%  main     libc.so.6              [.] 0x0000000000090de8
+     0.00%  main     libc.so.6              [.] 0x000000000008f9ac
+     0.00%  main     main                   [.] std::__relocate_a<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >
+     0.00%  main     libc.so.6              [.] 0x000000000009dcb4
+     0.00%  main     main                   [.] std::vector<PT, std::allocator<PT> >::emplace<PT>
+     0.00%  main     libstdc++.so.6.0.28    [.] std::istream::sentry::sentry@plt
+     0.00%  main     libc.so.6              [.] 0x000000000009c0e8
+     0.00%  main     main                   [.] std::__addressof<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >
+     0.00%  main     main                   [.] std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::max_size
+     0.00%  main     main                   [.] std::vector<PT, std::allocator<PT> >::_M_insert_aux<PT>
+     0.00%  main     main                   [.] std::forward<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&> >
+     0.00%  main     libc.so.6              [.] 0x000000000009dca8
+     0.00%  main     libc.so.6              [.] 0x0000000000090df8
+     0.00%  main     main                   [.] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>
+     0.00%  main     libc.so.6              [.] 0x000000000008eb60
+     0.00%  main     main                   [.] std::forward<std::pair<int const, int> const&>
+     0.00%  main     libc.so.6              [.] 0x000000000009c0d4
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1e4
+     0.00%  main     libc.so.6              [.] 0x000000000008eb1c
+     0.00%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<int const, int> >::_Hash_node_value_base
+     0.00%  main     libc.so.6              [.] 0x000000000008eb38
+     0.00%  main     main                   [.] std::allocator_traits<std::allocator<int> >::deallocate
+     0.00%  main     main                   [.] std::forward<std::tuple<> >
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::begin@plt
+     0.00%  main     main                   [.] std::addressof<std::__detail::_Hash_node<std::pair<int const, int>, false> >
+     0.00%  main     libc.so.6              [.] 0x000000000009c0d8
+     0.00%  main     libc.so.6              [.] 0x000000000008eb50
+     0.00%  main     libc.so.6              [.] 0x0000000000090ce4
+     0.00%  main     libc.so.6              [.] 0x000000000008fa5c
+     0.00%  main     main                   [.] segment::order
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create
+     0.00%  main     main                   [.] std::_Head_base<0ul, int const&, false>::_Head_base
+     0.00%  main     main                   [.] std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_Vector_base
+     0.00%  main     libc.so.6              [.] 0x000000000009dca4
+     0.00%  main     libc.so.6              [.] 0x000000000009e208
+     0.00%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_base_alloc
+     0.00%  main     main                   [.] std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>::~pair
+     0.00%  main     libstdc++.so.6.0.28    [.] std::ostream::put
+     0.00%  main     libc.so.6              [.] 0x0000000000090dc0
+     0.00%  main     libc.so.6              [.] 0x000000000008facc
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create@plt
+     0.00%  main     main                   [.] operator delete@plt
+     0.00%  main     main                   [.] __gnu_cxx::__normal_iterator<PT*, std::vector<PT, std::allocator<PT> > >::operator--
+     0.00%  main     main                   [.] std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, false>::_Head_base
+     0.00%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_uses_single_bucket
+     0.00%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::count
+     0.00%  main     libc.so.6              [.] 0x000000000008eb6c
+     0.00%  main     main                   [.] PriorityQueue::init
+     0.00%  main     main                   [.] std::forward<std::tuple<int const&> >
+     0.00%  main     libc.so.6              [.] 0x0000000000090a38
+     0.00%  main     libc.so.6              [.] 0x0000000000091080
+     0.00%  main     libstdc++.so.6.0.28    [.] std::locale::locale
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::c_str
+     0.00%  main     libc.so.6              [.] 0x000000000008fad4
+     0.00%  main     main                   [.] std::__get_helper<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>
+     0.00%  main     libc.so.6              [.] 0x000000000008e3cc
+     0.00%  main     libc.so.6              [.] 0x000000000008eaf8
+     0.00%  main     main                   [.] std::__detail::_Hashtable_ebo_helper<0, std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >, true>::_Hashtable_ebo_helper
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::max_size
+     0.00%  main     libc.so.6              [.] 0x0000000000090cc8
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::new_allocator
+     0.00%  main     main                   [.] std::addressof<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >
+     0.00%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_impl::_Vector_impl
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba21c
+     0.00%  main     libc.so.6              [.] 0x00000000000910a0
+     0.00%  main     main                   [.] std::__detail::_Node_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, false, true>::operator->
+     0.00%  main     main                   [.] std::vector<segment, std::allocator<segment> >::vector
+     0.00%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_bucket_index
+     0.00%  main     libc.so.6              [.] 0x0000000000090d80
+     0.00%  main     libstdc++.so.6.0.28    [.] 0x00000000000ba1d8
+     0.00%  main     libc.so.6              [.] 0x000000000008eba8
+     0.00%  main     libc.so.6              [.] 0x000000000008fb00
+     0.00%  main     libc.so.6              [.] 0x0000000000090a08
+     0.00%  main     main                   [.] std::operator>><char, std::char_traits<char>, std::allocator<char> >@plt
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::deallocate
+     0.00%  main     main                   [.] std::_Vector_base<segment, std::allocator<segment> >::_Vector_base
+     0.00%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_Hashtable_alloc
+     0.00%  main     main                   [.] std::__to_address<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> >
+     0.00%  main     main                   [.] std::__detail::_Hash_node_value_base<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >::_Hash_node_value_base
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::begin
+     0.00%  main     libc.so.6              [.] 0x000000000009e1d0
+     0.00%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true> > >::_M_node_allocator
+     0.00%  main     main                   [.] std::_Head_base<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, false>::_M_head
+     0.00%  main     main                   [.] std::vector<segment, std::allocator<segment> >::_S_max_size
+     0.00%  main     libc.so.6              [.] 0x000000000009dce0
+     0.00%  main     libc.so.6              [.] 0x00000000000911c8
+     0.00%  main     main                   [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string@plt
+     0.00%  main     main                   [.] std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> >, std::__detail::_Select1st, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_reset
+     0.00%  main     main                   [.] std::pointer_traits<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int>, true>*>::pointer_to
+     0.00%  main     libc.so.6              [.] 0x0000000000090a10
+     0.00%  main     libc.so.6              [.] 0x000000000008eb44
+     0.00%  main     libc.so.6              [.] 0x000000000008fb40
+     0.00%  main     main                   [.] std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> > >::_M_deallocate_node
+     0.00%  main     libc.so.6              [.] 0x000000000008e9c0
+     0.00%  main     libc.so.6              [.] 0x0000000000090d1c
+     0.00%  main     main                   [.] std::vector<int, std::allocator<int> >::end
+     0.00%  main     libc.so.6              [.] 0x000000000009c064
+     0.00%  main     libc.so.6              [.] 0x0000000000091054
+     0.00%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::unordered_map
+     0.00%  main     main                   [.] std::forward<int>
+     0.00%  main     main                   [.] __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::pair<int const, int>, false> >::destroy<std::pair<int const, int> >
+     0.00%  main     libstdc++.so.6.0.28    [.] std::locale::~locale@plt
+     0.00%  main     libstdc++.so.6.0.28    [.] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate
+     0.00%  main     libc.so.6              [.] 0x000000000008eae8
+     0.00%  main     libc.so.6              [.] 0x000000000008e988
+     0.00%  main     libc.so.6              [.] 0x000000000008f99c
+     0.00%  main     libc.so.6              [.] 0x000000000008fa30
+     0.00%  main     libc.so.6              [.] 0x000000000008fa54
+     0.00%  main     libc.so.6              [.] 0x000000000008eb74
+     0.00%  main     main                   [.] std::get<0ul, int const, int>
+     0.00%  main     libc.so.6              [.] 0x000000000008ead4
+     0.00%  main     main                   [.] std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int> > >::size
+     0.00%  main     libc.so.6              [.] 0x000000000008fa64
+     0.00%  main     libc.so.6              [.] 0x00000000000900dc
+     0.00%  main     libc.so.6              [.] 0x0000000000090e6c
+     0.00%  main     libc.so.6              [.] 0x000000000008ff68
+     0.00%  main     libc.so.6              [.] 0x0000000000090cec
+     0.00%  main     libc.so.6              [.] posix_memalign
+     0.00%  main     libc.so.6              [.] 0x0000000000090d3c
+     0.00%  main     libc.so.6              [.] 0x00000000000908e0
+     0.00%  main     libc.so.6              [.] 0x0000000000090cc0
+     0.00%  main     libc.so.6              [.] 0x0000000000090cb0
+     0.00%  main     main                   [.] std::_Hashtable<int, std::pair<int const, int>, std::allocator<std::pair<int const, int> >, std::__detail::_Select1st, std::equal_to<int>, std::hash<int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true> >::_M_insert_unique_node
+     0.00%  main     ld-linux-aarch64.so.1  [.] 0x000000000001cdc0
+     0.00%  main     main                   [.] std::__detail::_Prime_rehash_policy::_M_state
+
+
+#
+# (Tip: For a higher level overview, try: perf report --sort comm,dso)
+#
